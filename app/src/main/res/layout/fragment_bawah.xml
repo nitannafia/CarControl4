@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yasha.carcontrol.BawahFragment">
+
+    <ImageView
+        android:id="@+id/ImageView4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/diam" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Your Car Alarm Is"
+        android:textColor="#14213D"
+        android:textSize="9pt"
+        android:layout_below="@+id/ImageView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="OFF"
+        android:textColor="#14213D"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+</RelativeLayout>

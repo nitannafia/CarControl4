@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yasha.carcontrol.AlarmONFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="130dp"
+        android:layout_height="119dp"
+        android:background="@drawable/off"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Your Car Alarm Is"
+        android:textColor="#14213D"
+        android:textSize="9pt"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/off"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:text=" ON"
+        android:textColor="#14213D"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

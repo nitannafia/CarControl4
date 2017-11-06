@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CAR CONTROL</string>
+    <string name="title_activity_feature">CAR CONTROL</string>
+    <string name="action_SignOut">Sign Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
